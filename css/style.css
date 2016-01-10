@@ -3,23 +3,34 @@ body {
 }
 
 h1 {
-  text-align: center;
-  color: yellow;
-  font-size: 33px;
-  text-transform: lowercase;
+  font-size: 30px;
 }
 
 p {
-  text-transform: capitalize;
-  text-align: center;
-  color: white;
-  font-size: 1.4em;
+  font-size: 14px;
+}
+
+.nav {
+  list-style: none;
+  padding:0;
+}
+
+.nav li {
+  display: inline;
 }
 
 .wrapper {
-  background-color: black;
+  background-color: white;
 }
 
-.first {
-  font: italic small-caps 900 1.4em Helvetica;
+.wrapper a {
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
+
+.wrapper a:active {
+  background: blue;
 }
