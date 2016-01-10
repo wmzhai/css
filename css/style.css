@@ -3,16 +3,23 @@ body {
 }
 
 h1 {
-  color: blue;
-  font-size: 12px;
+  text-align: center;
+  color: yellow;
+  font-size: 32px;
+  text-transform: uppercase;
 }
 
 p {
+  text-transform: capitalize;
+  text-align: center;
   color: white;
   font-size: 24px;
 }
 
 .wrapper {
   background-color: black;
+}
 
+.first {
+  text-indent: 100px;
 }
