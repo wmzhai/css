@@ -21,9 +21,10 @@ p {
 }
 
 .wrapper {
+  border: 10px dashed #333;
   margin: 50px auto;
-  background-color: white;
-  width: 300px;
+  background: white;
+  width: 400px;
   height: 400px;
 }
 
