@@ -1,5 +1,6 @@
 body {
   background:#524763 url('../img/logo.png') no-repeat;
+  margin: 0;
 }
 
 h1 {
@@ -20,8 +21,9 @@ p {
 }
 
 .wrapper {
+  margin: 50px auto;
   background-color: white;
-  width: 80%;
+  width: 300px;
   height: 400px;
 }
 
