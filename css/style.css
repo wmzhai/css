@@ -26,6 +26,7 @@ p {
   background: white;
   width: 400px;
   height: 400px;
+  padding: 40px;
 }
 
 .wrapper a {
