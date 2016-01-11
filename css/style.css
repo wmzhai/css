@@ -53,3 +53,9 @@ p {
 .wrapper a:active {
   background: blue;
 }
+
+.red {
+  width: 5%;
+  background: red;
+  height: 100px;
+}
