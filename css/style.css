@@ -3,12 +3,23 @@ body {
   margin: 0;
 }
 
+h1, h2 {
+  color: blue;
+}
+
 h1 {
   font-size: 30px;
+    
 }
 
 p {
   font-size: 14px;
+  color: green;
+}
+
+.warning {
+  color: white;
+  background: red;
 }
 
 .nav {
