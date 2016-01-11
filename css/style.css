@@ -35,8 +35,10 @@ p {
   border: 10px dashed #333;
   margin: 50px auto;
   background: white;
-  width: 400px;
-  height: 400px;
+  width: 80%;
+  max-width: 800px;
+  min-width: 400px;
+  min-height: 200px;
   padding: 40px;
 }
 
