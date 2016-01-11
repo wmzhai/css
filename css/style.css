@@ -1,6 +1,33 @@
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
 body {
-  background:#524763 url('../img/logo.png') no-repeat;
+  background:#524763;
   margin: 0;
+}
+
+header {
+  width: 55%;
+  margin: 20px auto;
+}
+
+.logo a {
+  display: block;
+  width: 280px;
+  height: 280px;
+  background: url(../img/logo.png) no-repeat;
+  text-indent: -9999px;
 }
 
 h1, h2 {
@@ -9,17 +36,36 @@ h1, h2 {
 
 h1 {
   font-size: 30px;
-    
 }
 
 p {
   font-size: 14px;
-  color: green;
 }
 
 .warning {
   color: white;
   background: red;
+}
+
+.left-col {
+  float: left;
+  width: 20%;
+  margin: 40px 10% 40px 5%;
+  background: #444;
+
+}
+
+.main-col {
+  float: left;
+  width: 55%;
+  margin: 40px 5% 40xp 5%;
+  background: #666;
+}
+
+.floating {
+  float: left;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .nav {

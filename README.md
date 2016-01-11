@@ -23,6 +23,7 @@ http://leveluptuts.com/tutorials/css-tutorials
 * CSS Tutorials #17 - CSS Pseudo Class Selectors
 * CSS Tutorials #18 - Before and After Pseudo Elements
 * CSS Tutorials #19 - Child Selectors
+* CSS Tutorials #20 - Text Replacement
 * CSS Tutorials #21 - CSS Sprites
 * CSS Tutorials #23 - How To Make a Dropdown Menu With CSS
 * CSS Tutorials #24 - How To Make a Dropdown Menu With CSS Part 2
